@@ -5,7 +5,7 @@ const cInstaller = require("c-installer");
 
 const discord_client = new DiscordJS.Client();
 
-const ci_client = new cInstaller.Client({ discord_client })
+const ci_client = new cInstaller.Client({ client: discord_client })
 
 ci_client.discord.load(async function docs(req) {
 const url = `https://djsdocs.sorta.moe/v2/embed?src=stable&q=${encodeURIComponent(
