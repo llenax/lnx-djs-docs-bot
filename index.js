@@ -16,7 +16,7 @@ const url = `https://djsdocs.sorta.moe/v2/embed?src=stable&q=${encodeURIComponen
     .then((t) => req.msg.channel.send({ embed: t.data }))
     .catch(() => {
         req.msg.channel.send(
-        `${req.args} couldn't be found at discord.js documentation.`
+        `${req.args} couldn't found at discord.js documentation.`
         );
     });
 })
