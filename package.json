@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
-    "c-installer": "^1.0.16",
+    "c-installer": "^1.0.17",
     "discord.js": "^12.5.1"
   }
 }
